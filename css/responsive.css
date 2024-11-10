@@ -1,0 +1,41 @@
+/* PHONE DEVICE */
+@media (max-width: 991px){
+/* navbar */
+nav {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+nav .navbar-toggler{
+    border: none;
+    font-size: 25px;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+nav #my-menu li a.nav-link {
+    padding: 12px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+}
+nav #my-menu{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#banner h1 {
+    font-size: 40px;
+    
+}
+#banner.img-fluid {
+    max-width: 65%;
+}
+#banner {
+    padding: 44px 0;
+}
+}
+
+
+/* DEXTOP DEVICE
+@media (min-width: 992px){
+
+} */
